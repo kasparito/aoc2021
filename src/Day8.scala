@@ -71,5 +71,5 @@ object Day8 extends Base(8):
   override def part1: Int = // 479
     noteEntries.map(_.outputValues.count(_.possibleDigits.size == 1)).sum
 
-  override def part2: Long = // ???
+  override def part2: Long = // 1041746
     noteEntries.map(calculateOutputValue).sum
